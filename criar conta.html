@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang "pt-br">
+    <head>
+        <title>Criar conta</title>
+    </head>
+
+    <body>
+        <h1>Criar sua conta</h1>
+        <form>
+            <label for="nome">Nome</label><br>
+            <input type="text" id= "nome" name = "nome"/><br>
+            <br>
+            <label for="email">Email</label><br>
+            <input type="email" id= "email" name = "email"/><br>
+            <br>
+            <label for="senha">Senha</label><br>
+            <input type = "password" id= "senha" name = "senha"/><br>
+            <br>
+            <label for="confirmação">Confirmar senha</label><br>
+            <input type = "password" id= "senha" name = "senha"/><br>
+            <br>
+            <label for="data">Data de nascimento</label><br>
+            <input type = "date" id= "data" name = "data"/><br>
+            <br>
+            <label for="genero">Genero:</label><br>
+            
+
+            <input type="radio" id="genero" nome="genero" value="masculino">Masculino
+            <input type="radio" id="genero" nome="genero" value="feminino">Feminino
+            <input type="radio" id="genero" nome="genero" value="nonbinary">Não binário
+
+            <br>
+            <br>
+            <label for="interesses">Interesses:</label><br>
+            <input type="checkbox" id="Interesses" name="Tecnologia" value="Tecnologia">
+            <label for="Tecnologia"> Tecnologia</label><br>
+            <input type="checkbox" id="Interesses" name="Esportes" value="Esportes">
+            <label for="Esportes"> Esportes</label><br>
+            <input type="checkbox" id="Interesses" name="Música" value="Música">
+            <label for="Música">Música</label><br>
+            <br>
+
+            <label for="country">País:</label>
+
+            <select name="country" id="country">
+                <option value="Brasil">Brasil</option>
+                <option value="Japão">Japão</option>
+                <option value="Italia">Itália</option>
+                <option value="EstragosUnidos">Estados Unidos</option>
+                <option value="Ucrania">Ucrania</option>
+                <option value="Russia">Russia</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Taured">Taured</option>
+                <option value="setealem">Setealem</option>
+                <option value="Genóvia">Genóvia</option>
+                <option value="Paraguai">Paraguai</option>
+            </select>
+            <br>
+            <label for="termos"></label><br>
+            <input type="checkbox" id="termos" name="termos" value="termos">
+            <label for="termos"> Aceito os termos e condições</label><br>
+            <br>
+            <button type="submit">Criar conta</button> <br>
+            <br>
+            <a href="login.html">Já tenho conta</a><br>
+            <br>
+
+        </form>
+
+         <a href="login.html">
+            <button type="button">Voltar para Login</button>
+        </a>
+    </body>
+</html>
